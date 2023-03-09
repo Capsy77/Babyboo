@@ -1,0 +1,123 @@
+.favoritprodukter_container {
+    width: 400px;
+    min-height: 400px;
+}
+
+
+
+.favoritprodukter_name-holder {
+    width: 400px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.favoritprodukter_name {
+    display: flex;
+    gap: 5px;
+}
+
+
+.favoritprodukter_name svg {
+    width: 22px;
+    height: 22px;
+}
+
+
+.favoritprodukter_name p {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.favoritprodukter_more {
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+.favoritprodukter_list-container {
+    height: 370px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+
+
+.favoritprodukter_product_container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+
+
+.favoritprodukter_product-name {
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.favoritprodukter_pokemon-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.favoritprodukter_product-price {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.favoritprodukter_product-price svg {
+    width: 40px;
+    height: 30px;
+    background-color: #cfccc5;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 860px) {
+
+    .favoritprodukter_container {
+        width: 370px;
+        min-height: 400px;
+    }
+    
+    
+    
+    .favoritprodukter_name-holder {
+        width: 370px;
+        min-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .favoritprodukter_list-container {
+        height: 370px;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+    }
+}

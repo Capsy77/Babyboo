@@ -1,0 +1,109 @@
+.kampagner_container {
+    width: 910px;
+    min-height: 395px;
+}
+
+
+.kampagner-name {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+.kampagner-name svg {
+    width: 25px;
+    height: 25px;
+}
+
+
+.kampagner-name p {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+.kampagner_picture-list {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+
+.kampagner_picture-box {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+
+.kampagner_picture-box img {
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+
+.kampagner_picture-box h4 {
+    background-color: #c8c5be;
+    position: absolute;
+    font-size: 12px;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+}
+
+
+.kampagner_picture-box h4 svg {
+    width: 15px;
+    height: 15px;
+}
+
+
+.kampagner_picture-box p {
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    bottom: 55px;
+    left: 10px;
+}
+
+
+.kampagner_picture-box button {
+    width: 120px;
+    height: 30px;
+    background-color: #c4c9c1;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    border: none;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .kampagner_container {
+        width: 100%;
+        min-height: 395px;
+    }
+
+    .kampagner_picture-list {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}

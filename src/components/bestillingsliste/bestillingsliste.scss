@@ -1,0 +1,247 @@
+.bestillingsliste_container {
+    width: 723px;
+    min-height: 100px;
+}
+
+
+
+
+.bestillingsliste_name-holder {
+    width: 720px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bestillingsliste_name {
+    display: flex;
+    gap: 5px;
+}
+
+
+.bestillingsliste_name svg {
+    width: 22px;
+    height: 22px;
+    border: solid 2px black;
+}
+
+
+.bestillingsliste_name p {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.bestillingsliste_more {
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.bestillingsliste_product-list {
+    width: 100%;
+    min-height: 100px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.bestillingsliste_product-number-holder {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.bestillingsliste_product_container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+
+
+.bestillingsliste_product_container2 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+
+}
+
+
+
+.bestillingsliste_product-name {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.bestillingsliste_pokemon-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+
+[for="heart"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 25px;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+    position: absolute;
+    transform: translateY(-20px);
+  }
+  
+  [for="heart"]:hover {
+    color: grey;
+  }
+  
+  [for="heart"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart"]:checked + label {
+    color: #e2264d;
+  }
+
+ [for="heart2"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 25px;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+    position: absolute;
+    transform: translateY(-20px);
+  }
+  
+  [for="heart2"]:hover {
+    color: grey;
+  }
+  
+  [for="heart2"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart2"]:checked + label {
+    color: #e2264d;
+  }
+
+  [for="heart3"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 25px;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+    position: absolute;
+    transform: translateY(-20px);
+  }
+  
+  [for="heart3"]:hover {
+    color: grey;
+  }
+  
+  [for="heart3"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart3"]:checked + label {
+    color: #e2264d;
+  }
+
+  [for="heart4"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 25px;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+    position: absolute;
+    transform: translateY(-20px);
+  }
+  
+  [for="heart4"]:hover {
+    color: grey;
+  }
+  
+  [for="heart4"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart4"]:checked + label {
+    color: #e2264d;
+  }
+
+  input[type="checkbox"]  {
+    display: none;
+ }
+
+
+.bestillingsliste_product-price {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.bestillingsliste_product-more {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.bestillingsliste_product-more button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    transform: translateY(-15px);
+    cursor: pointer;
+
+}
+
+
+
+
+
+@media screen and (max-width: 860px) {
+  
+  .bestillingsliste_container {
+    width: 370px;
+    min-height: 100px;
+}
+
+
+
+
+.bestillingsliste_name-holder {
+    width: 350px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
